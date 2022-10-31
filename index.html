@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper and Scissor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="display-page">
+            <div class="player-part">
+                <h2>YOU</h2>
+                <div class="player">
+                    <img src="./img/rock.jpg" alt="" width="250px" height="250px" class="player-img">
+                    <div class="buttons">
+                        <button class="rock-btn" data-name="rock">ROCK</button>
+                        <button class="paper-btn" data-name="paper">PAPER</button>
+                        <button class="scissor-btn" data-name="scissor">SCISSOR</button>
+                    </div>
+                </div>
+                <div class="ply-score">
+                    <h3>Score</h3>
+                    <p class="your-score">0</p>
+                </div>
+            </div>
+            <div class="pc-part">
+                <h2>COMPUTER</h2>
+                <img src="./img/scissor.jpg" alt="" width="250px" height="250px" class="pc-img">
+                <div class="pc-score">
+                    <h3>Score</h3>
+                    <p class="cmp-score">0</p>
+                </div>
+            </div>
+            <h1 class="g-heading">Rock, Paper & Scissor</h1>
+            <p class="winner">YOU WIN</p>
+        </div>
+    </header>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
